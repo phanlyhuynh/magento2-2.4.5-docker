@@ -1,0 +1,23 @@
+# magento2-2.4.5-docker
+php bin/magento setup:install \
+--admin-firstname=Huynh \
+--admin-lastname=Phan \
+--admin-email=lyhuynh0806@gmail.com \
+--admin-user=admin \
+--admin-password='Aa@123456' \
+--base-url=https://magento.lc:8000 \
+--base-url-secure=https://magento.lc:8000 \
+--backend-frontname=admin \
+--db-host=mysql \
+--db-name=magento \
+--db-user=root \
+--db-password=root \
+--use-rewrites=1 \
+--language=en_US \
+--currency=USD \
+--elasticsearch-host=elasticsearch:9200
+--timezone=Asia/Ho_Chi_Minh \
+--use-secure-admin=1 \
+--admin-use-security-key=1 \
+--session-save=files \
+--use-sample-data
